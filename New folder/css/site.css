@@ -1,0 +1,50 @@
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: orange;
+}
+
+.card {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #ccc;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.scoreboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+    background-color: orange;
+    color: white;
+}
+
+    .card-deck {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    background-color: orange;
+  }
+
+
+
+    .card img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+    .card p {
+        text-align: center;
+        font-size: 14px;
+    }
+
